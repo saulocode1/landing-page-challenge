@@ -5,6 +5,7 @@ import NavLink from "./Components/NavLink";
 import NavBar from "./Components/NavBar";
 import Home from "./Sections/Home/Home";
 import Work from "./Sections/Work/Work";
+import Download from "./Sections/Download/Download";
 
 function App() {
     return (
@@ -20,8 +21,9 @@ function App() {
                 </NavBar>
             </Header>
 
-            <Home/>
-            <Work/>
+            <Home />
+            <Work />
+            <Download />
         </>
     );
 }
