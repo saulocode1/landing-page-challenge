@@ -5,6 +5,7 @@ const WorkSection = styled.section`
     background-color: var(--color-white);
     display: flex;
     flex-direction: column;
+    align-items: center;
 `;
 
 export default WorkSection;
@@ -12,6 +13,7 @@ export default WorkSection;
 export const CardIcon = styled.img.attrs((props) => ({ src: props.src }))`
     width: 2.813rem;
     height: 2.813rem;
+    margin-bottom: .8rem;
 `;
 
 export const CardTitle = styled.h2`
@@ -35,4 +37,11 @@ export const CardDiv = styled.div`
     justify-content: center;
     align-items: center;
     gap: 1rem;
+`;
+
+export const WrapperCards = styled.div`
+    display: flex;
+    justify-content: space-between;
+    width: 55vw;
+    margin-top: 5.25rem;
 `;
