@@ -4,6 +4,7 @@ import Logo from "./Components/Logo";
 import NavLink from "./Components/NavLink";
 import NavBar from "./Components/NavBar";
 import Home from "./Sections/Home/Home";
+import Work from "./Sections/Work/Work";
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
             </Header>
 
             <Home/>
+            <Work/>
         </>
     );
 }
