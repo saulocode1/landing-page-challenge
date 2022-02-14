@@ -1,5 +1,12 @@
 import React from "react";
-import { ContactInput, ContactSection, ContactText, TextContactDiv } from "./Contact.styled";
+import {
+    ContactInput,
+    ContactSection,
+    ContactText,
+    InputDiv,
+    SendButton,
+    TextContactDiv,
+} from "./Contact.styled";
 import SectionTitle from "../../Components/SectionTitle";
 
 const Contact = (props) => {
@@ -13,7 +20,10 @@ const Contact = (props) => {
                         Donec lacinia mi quis euismod ultrices.
                     </ContactText>
                 </TextContactDiv>
-                <ContactInput/>
+                <InputDiv>
+                    <ContactInput />
+                    <SendButton>Enviar</SendButton>
+                </InputDiv>
             </ContactSection>
         </>
     );

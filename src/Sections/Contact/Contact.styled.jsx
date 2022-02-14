@@ -34,10 +34,29 @@ export const ContactInput = styled.input.attrs({
     width: 18.75rem;
     background-color: transparent;
     font-size: 18px;
-    margin-top: 6.25rem;
     font-family: "Inter", sans-serif;
+    color: var(--color-white);
 
     ::placeholder {
         color: var(--color-white);
     }
+`;
+
+export const SendButton = styled.button`
+    border-radius: 50px;
+    padding: 0.5rem 2rem;
+    background-color: var(--color-second);
+    color: var(--color-white);
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+`;
+
+export const InputDiv = styled.div`
+    margin-top: 6.25rem;
+    width: 29rem;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 `;
