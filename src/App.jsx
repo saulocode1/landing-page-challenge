@@ -8,6 +8,7 @@ import Work from "./Sections/Work/Work";
 import Download from "./Sections/Download/Download";
 import Plans from "./Sections/Plans/Plans";
 import Contact from "./Sections/Contact/Contact";
+import Footer from "./Sections/Footer/Footer";
 
 function App() {
     return (
@@ -28,6 +29,7 @@ function App() {
             <Download />
             <Plans />
             <Contact/>
+            <Footer/>
         </>
     );
 }
