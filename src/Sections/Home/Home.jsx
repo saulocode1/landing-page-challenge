@@ -22,7 +22,7 @@ const Home = () => {
 
                         <BlueButton>Cadastrar-se</BlueButton>
                     </Container>
-                        <HomeImage />
+                    <HomeImage />
                 </WrapperSection>
             </HomeSection>
         </>

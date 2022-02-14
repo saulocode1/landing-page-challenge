@@ -6,6 +6,8 @@ import NavBar from "./Components/NavBar";
 import Home from "./Sections/Home/Home";
 import Work from "./Sections/Work/Work";
 import Download from "./Sections/Download/Download";
+import Plans from "./Sections/Plans/Plans";
+import Contact from "./Sections/Contact/Contact";
 
 function App() {
     return (
@@ -24,6 +26,8 @@ function App() {
             <Home />
             <Work />
             <Download />
+            <Plans />
+            <Contact/>
         </>
     );
 }

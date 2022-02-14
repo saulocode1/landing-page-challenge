@@ -53,8 +53,7 @@ export const AppleButton = styled.img.attrs({ src: Apple })`
     cursor: pointer;
 `;
 
-export const DownloadImage = styled.img.attrs({ src: Image })`
-`;
+export const DownloadImage = styled.img.attrs({ src: Image })``;
 
 export const Container = styled.div`
     width: 70vw;
@@ -62,6 +61,5 @@ export const Container = styled.div`
     justify-content: space-between;
     align-items: center;
 `;
-
 
 export default DownloadSection;

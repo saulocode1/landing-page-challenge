@@ -15,7 +15,9 @@ const Work = () => {
     return (
         <>
             <WorkSection>
-                <SectionTitle>Como funciona</SectionTitle>
+                <SectionTitle color="var(--color-third)">
+                    Como funciona
+                </SectionTitle>
 
                 <WrapperCards>
                     <Card
