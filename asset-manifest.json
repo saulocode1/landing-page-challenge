@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/landing-page-challenge/static/js/main.8c276fcd.js",
+    "static/media/contact-background.png": "/landing-page-challenge/static/media/contact-background.1d63160526def710382d.png",
+    "static/media/download-image.svg": "/landing-page-challenge/static/media/download-image.c547256e19389783fab42d7218aa4d2e.svg",
+    "static/media/home-image.png": "/landing-page-challenge/static/media/home-image.5ccc05e4a0973568dc9b.png",
+    "static/media/google-button.svg": "/landing-page-challenge/static/media/google-button.8550f0a72fc69e8e221067fe336bf137.svg",
+    "static/media/apple-button.svg": "/landing-page-challenge/static/media/apple-button.ae1f143a76640d7ed5b77c6383201cc1.svg",
+    "index.html": "/landing-page-challenge/index.html",
+    "main.8c276fcd.js.map": "/landing-page-challenge/static/js/main.8c276fcd.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.8c276fcd.js"
+  ]
+}
