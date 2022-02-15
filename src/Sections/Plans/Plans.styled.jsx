@@ -35,6 +35,7 @@ export const CardText = styled.p`
     color: var(--color-text-first);
     font-weight: 400;
     margin-bottom: 3.625rem;
+    color: ${(props) => props.textColor}
 `;
 
 export const CardButton = styled.a`

@@ -34,6 +34,7 @@ const Plans = () => {
                         background="var(--color-third)"
                         titleColor="var(--color-white)"
                         color="var(--color-white)"
+                        textColor="var(--color-text-second)"
                     ></Card>
                     <Card
                         title="Ouro"
@@ -57,7 +58,7 @@ export const Card = (props) => {
                 </CardTitle>
                 <Price color={props.color} number={props.number} />
                 <TextDiv color={props.color}>
-                    <CardText>{props.text}</CardText>
+                    <CardText textColor={props.textColor}>{props.text}</CardText>
                 </TextDiv>
                 <CardButton>Assinar</CardButton>
             </CardDiv>
