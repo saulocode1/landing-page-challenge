@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/landing-page-challenge/static/js/main.f564594d.js",
+    "main.js": "/landing-page-challenge/static/js/main.302bb434.js",
     "static/media/contact-background.png": "/landing-page-challenge/static/media/contact-background.1d63160526def710382d.png",
     "static/media/download-image.svg": "/landing-page-challenge/static/media/download-image.a2ad2b055c96ec6b9e7eb36ebaaa9596.svg",
     "static/media/home-image.png": "/landing-page-challenge/static/media/home-image.5ccc05e4a0973568dc9b.png",
     "static/media/google-button.svg": "/landing-page-challenge/static/media/google-button.31674a3c228b90f74b0dfb21c511b206.svg",
     "static/media/apple-button.svg": "/landing-page-challenge/static/media/apple-button.d442b923514182bc39ac7013e6deef6a.svg",
     "index.html": "/landing-page-challenge/index.html",
-    "main.f564594d.js.map": "/landing-page-challenge/static/js/main.f564594d.js.map"
+    "main.302bb434.js.map": "/landing-page-challenge/static/js/main.302bb434.js.map"
   },
   "entrypoints": [
-    "static/js/main.f564594d.js"
+    "static/js/main.302bb434.js"
   ]
 }
