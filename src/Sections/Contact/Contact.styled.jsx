@@ -50,6 +50,13 @@ export const SendButton = styled.button`
     border: none;
     font-family: "Inter", sans-serif;
     font-size: 18px;
+    cursor: pointer;
+    transition: 250ms ease-in-out;
+
+    &:hover {
+        background-color: var(--color-hover);
+        transition: 250ms ease-in-out;
+    }
 `;
 
 export const InputDiv = styled.div`

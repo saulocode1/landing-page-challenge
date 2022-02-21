@@ -9,6 +9,9 @@ const Header = styled.header`
     justify-content: space-between;
     align-items: center;
     padding: 0 8.438rem;
+    box-shadow: 0px 0px 12px #00000026;
+    position: sticky;
+    top: 0;
 `;
 
 export default Header;

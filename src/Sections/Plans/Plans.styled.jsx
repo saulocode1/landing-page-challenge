@@ -49,6 +49,12 @@ export const CardButton = styled.a`
     box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
     font-size: 20px;
     font-family: "Nunito", sans-serif;
+    transition: 250ms ease-in-out;
+
+    &:hover {
+        background-color: var(--color-hover);
+        transition: 250ms ease-in-out;
+    }
 `;
 
 export const CardDiv = styled.div`

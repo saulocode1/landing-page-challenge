@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const BlueButton = styled.button`
     background-color: var(--color-second);
@@ -10,6 +10,12 @@ const BlueButton = styled.button`
     cursor: pointer;
     box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
     font-size: 20px;
+    transition: 250ms ease-in-out;
+
+    &:hover {
+        background-color: var(--color-hover);
+        transition: 250ms ease-in-out;
+    }
 `;
 
 export default BlueButton;
