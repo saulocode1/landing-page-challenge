@@ -11,7 +11,7 @@ import {
 const Home = () => {
     return (
         <>
-            <HomeSection>
+            <HomeSection id="home">
                 <WrapperSection>
                     <Container>
                         <MainTitle>

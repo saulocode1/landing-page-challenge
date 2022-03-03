@@ -14,8 +14,10 @@ import { BRL, Month, Number, PriceDiv } from "./PricePlans";
 const Plans = () => {
     return (
         <>
-            <PlansSection>
-                <SectionTitle color="var(--color-third)">Nossos Planos</SectionTitle>
+            <PlansSection id="plans">
+                <SectionTitle color="var(--color-third)">
+                    Nossos Planos
+                </SectionTitle>
                 <TextDiv>
                     <PlansText>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -58,7 +60,9 @@ export const Card = (props) => {
                 </CardTitle>
                 <Price color={props.color} number={props.number} />
                 <TextDiv color={props.color}>
-                    <CardText textColor={props.textColor}>{props.text}</CardText>
+                    <CardText textColor={props.textColor}>
+                        {props.text}
+                    </CardText>
                 </TextDiv>
                 <CardButton>Assinar</CardButton>
             </CardDiv>

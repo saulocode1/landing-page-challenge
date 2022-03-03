@@ -12,7 +12,7 @@ import SectionTitle from "../../Components/SectionTitle";
 const Contact = (props) => {
     return (
         <>
-            <ContactSection>
+            <ContactSection id="contact">
                 <SectionTitle color="var(--color-white)">Contato</SectionTitle>
                 <TextContactDiv>
                     <ContactText>

@@ -10,6 +10,8 @@ import Plans from "./Sections/Plans/Plans";
 import Contact from "./Sections/Contact/Contact";
 import Footer from "./Sections/Footer/Footer";
 
+import { Link } from "react-scroll";
+
 function App() {
     return (
         <>
@@ -17,10 +19,51 @@ function App() {
             <Header>
                 <Logo />
                 <NavBar>
-                    <NavLink>Funcionalidades</NavLink>
-                    <NavLink>App</NavLink>
-                    <NavLink>Planos</NavLink>
-                    <NavLink>Contato</NavLink>
+                    <Link
+                        to="home"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                    >
+                        <NavLink>Início</NavLink>
+                    </Link>
+                    <Link
+                        to="work"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                    >
+                        <NavLink>Funcionalidades</NavLink>
+                    </Link>
+                    <Link
+                        to="download"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                    >
+                        <NavLink>App</NavLink>
+                    </Link>
+                    <Link
+                        to="plans"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                    >
+                        <NavLink>Planos</NavLink>
+                    </Link>
+                    <Link
+                        to="contact"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                    >
+                        <NavLink>Contato</NavLink>
+                    </Link>
                 </NavBar>
             </Header>
 
@@ -28,8 +71,8 @@ function App() {
             <Work />
             <Download />
             <Plans />
-            <Contact/>
-            <Footer/>
+            <Contact />
+            <Footer />
         </>
     );
 }

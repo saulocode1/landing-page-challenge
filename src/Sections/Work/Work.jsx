@@ -14,7 +14,7 @@ import Shield from "../../assets/icons/shield.png";
 const Work = () => {
     return (
         <>
-            <WorkSection>
+            <WorkSection id="work">
                 <SectionTitle color="var(--color-third)">
                     Como funciona
                 </SectionTitle>

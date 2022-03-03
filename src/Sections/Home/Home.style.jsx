@@ -9,7 +9,7 @@ export const HomeSection = styled.section`
 `;
 
 export const MainTitle = styled.h1`
-    font-size: 48px;
+    font-size: 3rem;
     color: var(--color-third);
     font-weight: 600;
     font-family: "Sora", sans-serif;

@@ -14,7 +14,7 @@ import DownloadSection, {
 const Download = () => {
     return (
         <>
-            <DownloadSection>
+            <DownloadSection id="download">
                 <Container>
                     <WrapperText>
                         <DownloadSectionTitle>
