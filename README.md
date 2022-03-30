@@ -8,3 +8,4 @@
 Packages:
 
 -   styled-components
+- gh-pages
