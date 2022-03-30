@@ -9,3 +9,4 @@ Packages:
 
 -   styled-components
 - gh-pages
+- react-scroll
